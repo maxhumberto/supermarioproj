@@ -1,0 +1,176 @@
+body.high-contrast {
+    background-color: black;
+    color: white;
+}
+#musica h2 {
+    font-family: "Doto", sans-serif;
+    animation: blink 1s step-start infinite;
+    text-align: center;
+    color: rgb(228, 247, 122);
+    font-size: small;
+}
+h2 {
+    animation: blink 1s step-start infinite;
+}
+
+.logo {
+    width: 150px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.nav {
+    background-color: #f71a1a; /* Cor de fundo escura */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos links do menu */
+.nav-link {
+    color: #fff; /* Cor branca para o texto */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: 500; /* Fonte em negrito */
+    margin-right: 20px; /* Espaçamento entre os links */
+    transition: all 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Efeito de hover */
+.nav-link:hover {
+    color: #0f0c03; /* Cor amarela ao passar o mouse */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    background-color: transparent; /* Remove o fundo ao passar o mouse */
+}
+
+/* Estilo para o link ativo */
+.nav-link.active {
+    background-color: #007bff; /* Cor azul para o item ativo */
+    border-radius: 5px; /* Arredondamento dos cantos */
+    color: #fff; /* Cor branca no item ativo */
+}
+Explic
+
+.titulo-vermelho {
+    color: rgb(187, 8, 8); /* Altera a cor do título para vermelho */
+}
+
+.img-fluid {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 5px solid #ff0000; /* Borda vermelha */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para a imagem */
+    transition: transform 0.3s ease; /* Adiciona transição suave */
+}
+
+.img-fluid:hover {
+    transform: scale(1.05); /* Aumenta um pouco a imagem ao passar o mouse */
+}
+
+.video-container {
+    background-color: #000; /* Fundo preto para destacar o vídeo */
+    padding: 20px; /* Espaço em volta do vídeo */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Sombra suave */
+    max-width: 80%; /* Limita a largura do contêiner */
+    margin: 20px auto; /* Centraliza o contêiner */
+}
+
+/* Estilo do vídeo */
+.video-player {
+    border-radius: 10px; /* Bordas arredondadas no vídeo */
+    transition: transform 0.3s ease; /* Efeito de transição para hover */
+    display: block; /* Garante que o vídeo seja exibido como bloco */
+    margin: 0 auto; /* Centraliza o vídeo */
+}
+
+/* Efeito de hover no vídeo */
+.video-player:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho do vídeo quando o mouse passa sobre ele */
+}
+
+#video {
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+}
+
+#video iframe {
+    max-width: 100%; /* Garante que o vídeo não ultrapasse o limite do contêiner */
+    height: auto; /* Ajusta a altura proporcionalmente */
+}
+
+.card-img-top {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    height: 200px; /* Define uma altura fixa para todas as imagens */
+    object-fit: cover; /* Ajusta a imagem para que ela cubra a área sem distorcer */
+}
+
+.btn-outline-pink {
+    color: #FF69B4; /* Cor rosa */
+    border-color: #FF69B4; /* Borda rosa */
+}
+
+.btn-outline-pink:hover {
+    background-color: #FF69B4; /* Cor de fundo rosa ao passar o mouse */
+    color: white; /* Muda a cor do texto para branco */
+}
+
+.btn-princesa-peach {
+    color: #FF69B4 !important; /* Cor rosa do texto */
+    border-color: #FF69B4 !important; /* Cor da borda rosa */
+}
+
+.btn-princesa-peach:hover {
+    background-color: #FF69B4 !important; /* Cor de fundo rosa ao passar o mouse */
+    color: white !important; /* Cor do texto para branco ao passar o mouse */
+}
+.footer-logo {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o limite do contêiner */
+}
+section.py-5.bg-light.text-dark {
+    background-color: #007bff; /* Cor de fundo azul para a seção */
+    color: #fff; /* Cor do texto dentro dos cards */
+    padding: 3rem 0; /* Adiciona espaçamento */
+}
+body .container .row .col-md-3 .card {
+    background-color: #007bff !important;
+    color: white;
+}
+
+.card {
+    background-color: #0a175e; /* Cor de fundo do card, que você pode alterar conforme necessário */
+    border: 1px solid #66e235; /* Borda dos cards */
+    border-radius: 10px; /* Arredondar os cantos dos cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve para destacar os cards */
+}
+
+.card-body {
+    background-color: #32f8e8; /* Cor de fundo do conteúdo do card */
+}
+
+.card-title, .card-text {   
+    color: #333; /* Cor do texto */
+}
+
+.btn-outline-danger, .btn-outline-success, .btn-outline-dark, .btn-outline-pink {
+    background-color: #8ec3f8; /* Cor de fundo do botão (branco claro) */
+    border-color: #524d4d; /* Cor da borda do botão */
+}
+
+.btn-outline-pink {
+    color: #e83e8c; /* Cor do texto do botão da Princesa Peach */
+    border-color: #e83e8c; /* Cor da borda do botão da Princesa Peach */
+}
+
+.btn-outline-pink:hover {
+    background-color: #e83e8c; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1; /* Totalmente visível */
+    }
+    25%, 75% {
+        opacity: 0; /* Invisível */
+    }
+}

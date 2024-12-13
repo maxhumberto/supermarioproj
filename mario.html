@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-primary text-white">
+    <header class="py-3 border-bottom bg-danger">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a href="./index.html">
+                <img src="./src/imagens/Mario_Series_Logo.svg.png" alt="Logo do Mario" class="logo">
+            </a>
+            <nav class="nav nav-pills">
+                <a class="nav-link text-white" href="#">Home</a>
+                <a class="nav-link text-white" href="#">Jogos</a>
+                <a class="nav-link text-white" href="#">Galeria</a>
+                <a class="nav-link text-white" href="#">Comentários</a>
+            </nav>
+            <section id="musica">
+                <h2>Trilha Sonora do mario</h2>
+                <p>Escute a trilha sonora do Mario enquanto navega pela loja!</p>
+                <audio controls>
+                    <source src="./src/audio/Overworld Theme - Super Mario_ World.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </section>
+          
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row my-5">
+            <div class="col-md-6">
+                <h1 class="titulo-vermelho">Bem-vindo ao Super Mario!</h1>
+                <p>Explore o Reino dos Cogumelos, desafie Bowser e resgate a Princesa Peach!</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./src/imagens/Super-Mario-Bros-1.jpg" alt="Imagem do Mario" class="img-fluid rounded">
+            </div>
+        </div>
+
+        <!-- Vídeo -->
+        <div class="video-container text-center">
+            <video controls class="video-player w-75">
+                <source src="./src/supermario/_SUPER MARIO BROS. O FILME_ - Trailer Oficial Final Dobrado (Universal Pictures Portugal).mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+        </div>
+
+        <!-- Cards -->
+        <section class="py-5 bg-blue text-dark">
+            <div class="container text-center">
+                <div class="row g-4">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="./src/imagens/MarioHub_Overview_Mario_sideimg_mario.png" alt="Imagem do Mario" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Super Mario</h5>
+                                <p class="card-text">O herói mais famoso do Reino dos Cogumelos!</p>
+                                <a href="#" class="btn btn-outline-danger">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="./src/imagens/0b49308522463829166e76b0d914c8b8.jpg" alt="Imagem do Luigi" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Luigi</h5>
+                                <p class="card-text">O fiel companheiro do Mario.</p>
+                                <a href="#" class="btn btn-outline-success">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="./src/imagens/princesa_peach_mario_filme_capa_widelg.jpg" alt="Imagem da Princesa Peach" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Princesa Peach</h5>
+                                <p class="card-text">A princesa que Mario sempre resgata!</p>
+                                <a href="#" class="btn btn-princesa-peach">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <img src="./src/imagens/Bowser-720x405.jpg" alt="Imagem do Bowser" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Bowser</h5>
+                                <p class="card-text">O grande vilão do Reino dos Cogumelos.</p>
+                                <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Gameplay de Mario</h2>
+            <p>Confira uma prévia do gameplay de um dos jogos mais icônicos, Super Mario!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wgUmFPnkoHU?si=GyZgEo-e197It9wR"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row text-center text-lg-start">
+                <div class="col-md-4">
+                    <img src="./src/imagens/Mario_Series_Logo.svg.png" alt="Logo do Mario" class="footer-logo mb-3">
+                    <p>Todos os direitos reservados © Desenvolvido por Humberto.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Links Rápidos</h5>
+                    <nav class="d-flex flex-column">
+                        <a href="#" class="nav-link px-0 text-white">Início</a>
+                        <a href="#" class="nav-link px-0 text-white">Jogos</a>
+                        <a href="#" class="nav-link px-0 text-white">Galeria</a>
+                        <a href="#" class="nav-link px-0 text-white">Contato</a>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-3">Receba Novidades</h5>
+                    <form>
+                        <label for="email" class="visually-hidden">Email</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu email">
+                            <button class="btn btn-danger">Inscrever-se</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./mario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeo1h9A1NQvbKNWoNlkD9+P4LlRp69CTOPEiyMGMK1pVcGpR" crossorigin="anonymous"></script>
+</body>
+</html>
